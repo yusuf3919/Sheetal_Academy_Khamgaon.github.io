@@ -68,7 +68,8 @@ label{
 
 }
 .bar-container{
-margin-left: 680px;
+/* margin-left: 680px; */
+margin-left: 50vw;
 margin-top: 20px;
 display: flex;
 }
@@ -97,4 +98,194 @@ a:link{
 .MainPage{
     height: 100vh;
     width: 100%;
+}
+.logo{
+    cursor: pointer;
+}
+@media only screen and (max-width: 1200px){
+    /*Tablets [768px -> 1200px]*/
+    .bar{
+        color: #E0231A;
+        font-size: large;
+        font-weight: 700;
+        font-family: "Montserrat",sans-serif;
+        margin: 0 0 0 8px;
+        margin-right: 3px;
+    
+    }
+    .bar1{
+        color: #E0231A;
+        font-size: large;
+        font-weight: 700;
+        font-family: "Montserrat",sans-serif;
+        /* margin: 0 0 0 10px; */
+        /* margin-right: 5px; */
+    
+    }
+    .button{
+        color: #E0231A !important;
+        font-size: large !important;
+        font-weight: 700 !important;
+        font-family: "Montserrat",sans-serif !important;  
+        padding-top: 0px !important;
+    }
+    .bar-container{
+        /* margin-left: 680px; */
+        margin-left: 35vw;
+        margin-top: 20px;
+        display: flex;
+        }
+}
+@media only screen and (max-width: 768px){
+    /*Tablets [601px -> 1200px]*/
+    .bar{
+        color: #E0231A;
+        font-size: large;
+        font-weight: 700;
+        font-family: "Montserrat",sans-serif;
+        margin: 0 0 0 8px;
+        margin-right: 3px;
+    
+    }
+    .bar1{
+        color: #E0231A;
+        font-size: large;
+        font-weight: 700;
+        font-family: "Montserrat",sans-serif;
+        /* margin: 0 0 0 10px; */
+        /* margin-right: 5px; */
+    
+    }
+    .button{
+        color: #E0231A !important;
+        font-size: large !important;
+        font-weight: 700 !important;
+        font-family: "Montserrat",sans-serif !important;  
+        padding-top: 0px !important;
+    }
+    .bar-container{
+        /* margin-left: 680px; */
+        margin-left: 12vw;
+        margin-top: 20px;
+        display: flex;
+        }
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .bar{
+        color: #E0231A;
+        font-size: large;
+        font-weight: 600;
+        font-family: "Montserrat",sans-serif;
+        margin: 0 0 0 8px;
+        margin-right: 3px;
+    
+    }
+    .bar1{
+        color: #E0231A;
+        font-size: large;
+        font-weight: 600;
+        font-family: "Montserrat",sans-serif;
+        /* margin: 0 0 0 10px; */
+        /* margin-right: 5px; */
+    
+    }
+    .button{
+        color: #E0231A !important;
+        font-size: large !important;
+        font-weight: 600 !important;
+        font-family: "Montserrat",sans-serif !important;  
+        padding-top: 0px !important;
+    }
+    .bar-container{
+        /* margin-left: 680px; */
+        margin-left: 25vw;
+        margin-top: 20px;
+        display: flex;
+        }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+    .bar{
+        color: #E0231A;
+        font-size: large;
+        font-weight: 400;
+        font-family: "Montserrat",sans-serif;
+        margin: 0 0 0 8px;
+        margin-right: 3px;
+    
+    }
+    .bar1{
+        color: #E0231A;
+        font-size: large;
+        font-weight: 400;
+        font-family: "Montserrat",sans-serif;
+        /* margin: 0 0 0 10px; */
+        /* margin-right: 5px; */
+    
+    }
+    .button{
+        color: #E0231A !important;
+        font-size: large !important;
+        font-weight: 400 !important;
+        font-family: "Montserrat",sans-serif !important;  
+        padding-top: 0px !important;
+    }
+    .mainBar{
+        display: block;
+  
+    }
+    .ul{
+        list-style-type: none;
+        display: block;
+        padding-left: 0;
+        margin-bottom: 0;
+        /* flex-wrap: wrap; */
+        margin-top: 0;
+    }
+    .bar-container{
+        /* margin-left: 680px; */
+        margin-left: 15vw;
+        margin-top: 20px;
+        display: block;
+        }
+}
+@media only screen and (min-width: 577px) and (max-width: 720px) {
+    .bar{
+        color: #E0231A;
+        font-size: small;
+        font-weight: 500;
+        font-family: "Montserrat",sans-serif;
+        margin: 0 0 0 8px;
+        margin-right: 3px;
+    
+    }
+    .bar1{
+        color: #E0231A;
+        font-size: small;
+        font-weight: 500;
+        font-family: "Montserrat",sans-serif;
+        /* margin: 0 0 0 10px; */
+        /* margin-right: 5px; */
+    
+    }
+    .button{
+        color: #E0231A !important;
+        font-size: large !important;
+        font-weight: 500 !important;
+        font-family: "Montserrat",sans-serif !important;  
+        padding-top: 0px !important;
+    }
+    .mainBar{
+        display: block;
+  
+    }
+    .ul{
+        list-style-type: none;
+        display: block;
+        padding-left: 0;
+        margin-bottom: 0;
+        /* flex-wrap: wrap; */
+        margin-top: 0;
+    }
 }
