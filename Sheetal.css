@@ -4,7 +4,10 @@
 /* .selector-for-some-widget {
     box-sizing: content-box;
   } */
- 
+ svg{
+     margin: 5px;
+     cursor: pointer;
+ }
   .mainBar{
       display: flex;
       width: 100vw;
@@ -387,7 +390,7 @@ li{
         display: flex;
         }
         .Term{
-            padding-left: 2vw;
+            padding-left: 6vw;
             margin-right: 20px;
         }
         .mainBar{
