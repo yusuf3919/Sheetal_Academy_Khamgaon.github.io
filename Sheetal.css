@@ -816,7 +816,7 @@
         }
         .mainBar{
             display: block;
-            width: 98.3vw;
+            width: 100%;
         }
     
         .ul{
@@ -840,13 +840,14 @@
                 gap: 5px;
                 background-color: rgba(42, 41, 41, 1);
                 padding-top: 5px;
-                width: 98%;
+                width: 100%;
     
               }
               .Sitting-img{
                 border-radius: 5px;
                 margin-top: 15px;
-                width: 340px;
+                width: 550px;
+                height: 150px;
                 box-shadow: 4px 4px 4px 4px;
                 margin-left: 97px;
             }
@@ -856,7 +857,7 @@
                 color: white;
                 padding: 20px 0;
                 font-size: 8px;
-                width: 98%;
+                width: 100%;
                 border-top: solid 6px rgba(62, 60, 60, 0.8);
                 
             }
