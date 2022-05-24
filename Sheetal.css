@@ -159,7 +159,7 @@
     /* Responsive css */
 
     @media only screen and (max-width: 2560px){
-        /*Tablets [768px -> 1200px]*/
+        /*Big PCs [1440px -> 2560px]*/
         .logo{
             width: 250px;
             height: 150px;
@@ -231,7 +231,7 @@
     }
     
      @media only screen and (max-width: 1440px){
-        /*Tablets [768px -> 1440px]*/
+        /*Tablets [1366px -> 1440px]*/
         .main-bar{
             display: flex;
            
@@ -298,7 +298,7 @@
     }
     
     @media only screen and (max-width: 1366px){
-        
+        /*PCs [1200px -> 1366px]*/
         .main-bar{
             display: flex;
      
@@ -601,14 +601,7 @@
             margin-right: 3px;
         
         }
-        .grid-container {
-            display: block;
-            gap: 5px;
-            background-color: rgba(42, 41, 41, 1);
-            padding-top: 5px;
-            width: 100%;
-
-          }
+     
         .logo{
             width: 100px;
             height: 60;
@@ -626,32 +619,90 @@
             font-family: "Montserrat",sans-serif !important;  
             padding-top: 0px !important;
         }
-        .bar-container{
-            margin-left: 1vw;
-            margin-top: 20px;
-            display: flex;
-            }
+      
             .Term{
                 padding-left: 20vw;
                 margin-right: 10px;
             }
-            .Sitting-img{
-                border-radius: 5px;
-                margin-top: 15px;
-                
-                box-shadow: 4px 4px 4px 4px;
-                margin-left: 150px;
-            }
+        
             .slideshow-container{
-                width: 700px;
+                width: 100%;
             }
             .inpt{
                 margin: 0 5px 0 5px;
                 width: 25vw;
             }
+
+
+            .mainBar{
+                display: block;
+                width: 100%;
+            }
+            .barH{
+                font-size: 15px;
+            }
+            h4{
+                font-size: large;
+            }
+            h2{
+                font-size: 15px;
+            }
+            .ul{
+                list-style-type: none;
+                display: block;
+                padding-left: 0;
+                margin-bottom: 0;
+                /* flex-wrap: wrap; */
+                margin-top: 0;
+            }
+            .bar-container{
+                /* margin-left: 680px; */
+                margin-left: 2vw;
+                margin-top: 20px;
+                display: flex;
+               
+                }
+                .grid-container {
+                    display: block;
+                    gap: 5px;
+                    background-color: rgba(42, 41, 41, 1);
+                    padding-top: 5px;
+                    width: 100%;
+        
+                  }
+                  .Sitting-img{
+                    border-radius: 5px;
+                    margin-top: 15px;
+                    width: 100%;
+                    box-shadow: 4px 4px 4px 4px;
+                    margin-left: 110px;
+                }
+                .copyright-container{
+                    background-color: rgba(42, 41, 41, 1);
+                    text-align: center;
+                    color: white;
+                    padding: 20px 10px;
+                    font-size: 15px;
+                    width: 100%;
+                    border-top: solid 6px rgba(62, 60, 60, 0.8);
+                    
+                }
+                .Term{
+                    padding-left: 20vw;
+                    margin-right: 10px;
+                }
+                .Footer{
+                    width: 100%;
+                }
+                .slideshow-container{
+                    width: 100%;
+                    }
+                    .item1{
+                    margin-left: 0;
+                    }
     }
     @media only screen and (max-width: 425px){
-        /*Small smartphones [325px -> 425px]*/
+        /*smartphones [600px -> 425px]*/
         .bar{
             color: #E0231A;
             font-size: large;
@@ -787,7 +838,7 @@
         }
     } */
     @media only screen and (max-width: 375px){
-        /*Small smartphones [325px -> 425px]*/
+        /*Small smartphones [425px -> 375px]*/
         .bar{
             color: #E0231A;
             font-size: large;
@@ -872,7 +923,7 @@
             }
     }
     @media only screen and (max-width: 320px){
-        /*Small smartphones [325px -> 425px]*/
+        /*Small smartphones [375px -> 320px]*/
         .bar{
             color: #E0231A;
             font-size: large;
